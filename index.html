@@ -71,10 +71,24 @@
     <div class="header-main">
       <div class="container">
         <div class="inner-wrap">
+          <div class="menu-button-open" id="menu-button-open">
+            <i class="fas fa-bars"></i>
+          </div>
           <div class="inner-logo">
             <a href="/">
               <img src="assets/images/core/logo.png" alt="Logo">
             </a>
+          </div>
+          <div class="search-button-open" id="search-button-open">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="search-mobile" id="search-mobile">
+            <form action="">
+              <input type="text" name="" value="" placeholder="Tìm kiếm">
+              <button type="submit" name="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
           </div>
           <div class="inner-banner">
             <a href="/">
@@ -90,13 +104,10 @@
     <div class="header-menu">
       <div class="container">
         <div class="inner-wrap">
-          <div class="inner-button-open" id="menu-button-open">
-            <i class="fas fa-bars"></i>
-          </div>
-          <div class="inner-button-close" id="menu-button-close">
+          <div class="menu-button-close" id="menu-button-close">
             <i class="fas fa-times"></i>
           </div>
-          <div class="inner-overlay" id="menu-overlay"></div>
+          <div class="menu-overlay" id="menu-overlay"></div>
           <ul class="inner-list" id="menu-list">
             <li class="inner-home">
               <a href="/">
@@ -107,11 +118,67 @@
               <a href="danh-sach-video.html">
                 Video
               </a>
+              <span class="inner-icon-down fas fa-caret-down"></span>
+              <ul>
+                <li>
+                  <a href="danh-sach-video.html">
+                    Video
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Sự kiện & Bình luận
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Thời sự
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Quy hoạch - Kiến trúc
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Bất động sản
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="danh-sach-bai-viet.html">
                 Sự kiện & Bình luận
               </a>
+              <span class="inner-icon-down fas fa-caret-down"></span>
+              <ul>
+                <li>
+                  <a href="danh-sach-video.html">
+                    Video
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Sự kiện & Bình luận
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Thời sự
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Quy hoạch - Kiến trúc
+                  </a>
+                </li>
+                <li>
+                  <a href="danh-sach-bai-viet.html">
+                    Bất động sản
+                  </a>
+                </li>
+              </ul>
             </li>
             <li>
               <a href="danh-sach-bai-viet.html">
@@ -199,12 +266,12 @@
     <!-- End Banner -->
 
     <!-- Wrap 2 Col -->
-    <div class="wrap-two-col mt-25">
-      <div class="container">
+    <div class="container mt-25">
+      <div class="wrap-two-col">
         <div class="inner-wrap">
           <!-- Left -->
           <div class="inner-left">
-
+  
             <div class="news-type-1">
               <div class="inner-item">
                 <a class="inner-image" href="chi-tiet-bai-viet.html">
@@ -224,10 +291,10 @@
                 </div>
               </div>
             </div>
-
+  
             <div class="news-type-2 mt-15 mb-20 pb-10 border-bottom">
               <div class="row">
-                <div class="col-lg-4 mb-15">
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-15">
                   <div class="inner-item">
                     <a href="chi-tiet-bai-viet.html">
                       <div class="inner-image">
@@ -241,7 +308,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-4 mb-15">
+                <div class="col-lg-4 col-md-4 col-sm-6 mb-15">
                   <div class="inner-item">
                     <a href="chi-tiet-bai-viet.html">
                       <div class="inner-image">
@@ -255,7 +322,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="col-lg-4 mb-15">
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-15">
                   <div class="inner-item">
                     <a href="chi-tiet-bai-viet.html">
                       <div class="inner-image">
@@ -271,11 +338,11 @@
                 </div>
               </div>
             </div>
-
+  
             <div class="wrap-two-col-2">
               <div class="inner-wrap">
                 <div class="inner-left">
-
+  
                   <div class="news-type-3 mb-25">
                     <div class="inner-list">
                       <!-- Item -->
@@ -403,10 +470,10 @@
                       <!-- End Item -->
                     </div>
                   </div>
-
+  
                 </div>
                 <div class="inner-right">
-
+  
                   <div class="cate-type-1 mb-25">
                     <div class="box-title">
                       <a>
@@ -441,7 +508,7 @@
                       </div>
                     </div>
                   </div>
-
+  
                   <div class="news-type-4 mb-25">
                     <div class="box-title">
                       <a href="tin-doc-nhieu.html">
@@ -476,11 +543,11 @@
                       </div>
                     </div>
                   </div>
-
+  
                 </div>
               </div>
             </div>
-
+  
             <div class="news-type-5 mb-25">
               <div class="box-title">
                 <a>
@@ -502,7 +569,8 @@
                         </a>
                       </div>
                       <div class="inner-sapo">
-                        Nhân dịp ngày doanh nhân Việt Nam (13/10), tôi cứ suy ngẫm mãi về câu "Thương trường là chiến trường" - vẫn thường được nhắc đến như một chân lý.
+                        Nhân dịp ngày doanh nhân Việt Nam (13/10), tôi cứ suy ngẫm mãi về câu "Thương trường là chiến
+                        trường" - vẫn thường được nhắc đến như một chân lý.
                       </div>
                     </div>
                   </div>
@@ -525,11 +593,11 @@
                 </div>
               </div>
             </div>
-
+  
             <div class="wrap-two-col-2">
               <div class="inner-wrap">
                 <div class="inner-left">
-
+  
                   <div class="videos-type-1 mb-25">
                     <div class="box-title">
                       <a href="danh-sach-video.html">
@@ -542,13 +610,16 @@
                           <source src="assets/images/demo/video/1.mp4" type="video/mp4">
                           <source src="assets/images/demo/video/1.mp4" type="video/mov">
                         </video>
-                        <div class="inner-title">
-                          <a href="chi-tiet-video.html">
-                            Bộ trưởng Nguyễn Thanh Nghị tiếp Bộ trưởng Bộ Nông nghiệp và Lâm nghiệp Phần Lan
-                          </a>
-                        </div>
-                        <div class="inner-sapo">
-                          (Xây dựng) - Ngày 10/10, tại Hà Nội, Bộ trưởng Bộ Xây dựng Nguyễn Thanh Nghị đã có buổi tiếp và làm việc với Bộ trưởng Bộ Nông nghiệp và Lâm nghiệp Phần Lan Antti Kurvinen.
+                        <div class="inner-content">
+                          <div class="inner-title">
+                            <a href="chi-tiet-video.html">
+                              Bộ trưởng Nguyễn Thanh Nghị tiếp Bộ trưởng Bộ Nông nghiệp và Lâm nghiệp Phần Lan
+                            </a>
+                          </div>
+                          <div class="inner-sapo">
+                            (Xây dựng) - Ngày 10/10, tại Hà Nội, Bộ trưởng Bộ Xây dựng Nguyễn Thanh Nghị đã có buổi tiếp
+                            và làm việc với Bộ trưởng Bộ Nông nghiệp và Lâm nghiệp Phần Lan Antti Kurvinen.
+                          </div>
                         </div>
                       </div>
                       <div class="inner-list">
@@ -604,7 +675,8 @@
                                     <img src="assets/images/demo/tin-tuc/tin-4.jpg" alt="Tin tức" />
                                   </div>
                                   <div class="inner-title">
-                                    Bộ Xây dựng lấy ý kiến góp ý dự thảo về Luật nhà ở và Luật kinh doanh bất động sản (sửa đổi)
+                                    Bộ Xây dựng lấy ý kiến góp ý dự thảo về Luật nhà ở và Luật kinh doanh bất động sản
+                                    (sửa đổi)
                                   </div>
                                 </a>
                               </div>
@@ -631,7 +703,7 @@
                       </div>
                     </div>
                   </div>
-
+  
                   <div class="news-type-3 mb-25">
                     <div class="inner-list">
                       <!-- Item -->
@@ -902,41 +974,420 @@
                         </div>
                       </div>
                       <!-- End Item -->
-                      <!-- Item -->
+                    </div>
+                  </div>
+  
+                </div>
+                <div class="inner-right">
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Thời sự
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-1.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Chỉ đạo, điều hành của Chính phủ, Thủ tướng Chính phủ nổi bật tuần từ 10-14/10/2022
+                          </a>
+                        </div>
+                      </div>
                       <div class="inner-item">
                         <div class="inner-title">
                           <a href="chi-tiet-bai-viet.html">
-                            Gói thầu đầu tiên liên quan đến Dự án Di dời ga đường sắt Đà Nẵng và tái phát triển đô thị
+                            Toàn văn phát biểu của Tổng Bí thư tại hội nghị về vùng Tây Nguyên
                           </a>
                         </div>
-                        <div class="inner-content">
-                          <div class="inner-image">
-                            <a href="chi-tiet-bai-viet.html">
-                              <img src="assets/images/demo/tin-tuc/tin-10.jpg" alt="Tin tức">
-                            </a>
-                          </div>
-                          <div class="inner-sapo">
-                            (Xây dựng) - Dự án Di dời ga đường sắt Đà Nẵng và tái phát triển đô thị được xây dựng kế
-                            hoạch từ năm 2004, đến nay đã hơn ...
-                          </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Hội nghị quán triệt và triển khai Nghị quyết phát triển vùng Tây Nguyên
+                          </a>
                         </div>
                       </div>
-                      <!-- End Item -->
                     </div>
                   </div>
-
-                </div>
-                <div class="inner-right">
-
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Quy hoạch - Kiến trúc
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-2.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Nhiệm vụ Quy hoạch Thủ đô rất chậm so với yêu cầu
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Thí điểm phân cấp thẩm quyền phê duyệt điều chỉnh cục bộ quy hoạch đô thị thuộc tỉnh Khánh
+                            Hòa
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Cần xem xét, đánh giá và định hướng đúng việc nhân dân tự phát xây dựng nhà ở nông thôn tại
+                            tỉnh Lâm Đồng nói chung và huyện Bảo Lâm nói riêng
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Bất động sản
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-3.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Ninh Bình: Điểm mặt những dự án có thời gian sử dụng đất trên 50 năm
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Sửa đổi Luật Đất đai: Chưa rõ tính pháp lý về sở hữu condotel, shop house
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Bắt đầu hậu kiểm thuế với hồ sơ chuyển nhượng bất động sản
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Vật liệu
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-4.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Hưng Yên: Tăng cường công tác quản lý hoạt động khoáng sản
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Chuẩn bị diễn ra Triển lãm Vietbuild với chủ đề Nhà ở - Kiến trúc và Trang trí nội ngoại
+                            thất
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Giá thép trong nước tiếp tục điều chỉnh giảm
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Khoa học - Công nghệ
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-5.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            “Trợ lý ảo” dành riêng cho nhà môi giới bất động sản
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Đô thị thông minh ở Việt Nam: Nhìn từ quốc gia có đặc điểm tương đồng
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Tấm vé lên "chuyến tàu 4.0"
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Kinh tế
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-6.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Giá vàng hôm nay 15/10: Áp lực bán tháo, giá vàng giảm sâu
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Hướng dẫn quản lý chi phí đầu tư xây dựng và điều chỉnh hợp đồng xây dựng
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Thách thức khi đạt tăng trưởng GDP từ 6,5-7% giai đoạn 2021-2025
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="news-type-6 mb-25">
+                    <div class="box-title">
+                      <a href="danh-sach-bai-viet.html">
+                        Xã hội
+                      </a>
+                    </div>
+                    <div class="inner-list">
+                      <div class="inner-item">
+                        <a class="inner-image" href="chi-tiet-bai-viet.html">
+                          <img src="assets/images/demo/tin-tuc/tin-7.jpg" alt="Tin tức">
+                        </a>
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Thừa Thiên – Huế: Mưa lớn làm nhiều vùng ngập sâu, di dời dân ở vùng thấp trũng
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Khu vực từ Quảng Trị đến Quảng Ngãi có mưa to đến rất to
+                          </a>
+                        </div>
+                      </div>
+                      <div class="inner-item">
+                        <div class="inner-title">
+                          <a href="chi-tiet-bai-viet.html">
+                            Khánh Hòa: Tạm đình chỉ nhiều khách sạn vi phạm về phòng cháy, chữa cháy
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
                 </div>
               </div>
             </div>
-
+  
+            <div class="banner-full mb-25">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-13.gif" alt="Banner">
+              </a>
+            </div>
+  
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-25">
+                <div class="news-type-6">
+                  <div class="box-title">
+                    <a href="danh-sach-bai-viet.html">
+                      Pháp luật
+                    </a>
+                  </div>
+                  <div class="inner-list">
+                    <div class="inner-item">
+                      <a class="inner-image" href="chi-tiet-bai-viet.html">
+                        <img src="assets/images/demo/tin-tuc/tin-8.jpg" alt="Tin tức">
+                      </a>
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Khánh Hòa: Tạm đình chỉ nhiều khách sạn vi phạm về phòng cháy, chữa cháy
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Kê biên thêm 21 bất động sản của ông Tất Thành Cang và đồng phạm
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Nghệ An: Thành lập Đoàn kiểm tra các dự án đầu tư ngoài khu kinh tế và khu công nghiệp
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-25">
+                <div class="news-type-6">
+                  <div class="box-title">
+                    <a href="danh-sach-bai-viet.html">
+                      Bạn đọc
+                    </a>
+                  </div>
+                  <div class="inner-list">
+                    <div class="inner-item">
+                      <a class="inner-image" href="chi-tiet-bai-viet.html">
+                        <img src="assets/images/demo/tin-tuc/tin-9.jpg" alt="Tin tức">
+                      </a>
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Thường Xuân (Thanh Hóa): Dự án giao thông hơn 40 tỷ đồng liệu có được thi công trở lại?
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Ninh Bình: Điểm mặt những dự án có thời gian sử dụng đất trên 50 năm
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Bài 47: Dự án “cánh chim đầu đàn” gãy cánh
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="banner-full mb-25">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-14.jpg" alt="Banner">
+              </a>
+            </div>
+  
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-25">
+                <div class="news-type-6">
+                  <div class="box-title">
+                    <a href="danh-sach-bai-viet.html">
+                      Thế giới
+                    </a>
+                  </div>
+                  <div class="inner-list">
+                    <div class="inner-item">
+                      <a class="inner-image" href="chi-tiet-bai-viet.html">
+                        <img src="assets/images/demo/tin-tuc/tin-10.jpg" alt="Tin tức">
+                      </a>
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Khu siêu giàu mới ở New York
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Nơi người dân không thể sống thiếu Internet dù chỉ một ngày
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Trung Quốc tung biện pháp mạnh cứu thị trường bất động sản
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mb-25">
+                <div class="news-type-6">
+                  <div class="box-title">
+                    <a href="danh-sach-bai-viet.html">
+                      Văn hóa
+                    </a>
+                  </div>
+                  <div class="inner-list">
+                    <div class="inner-item">
+                      <a class="inner-image" href="chi-tiet-bai-viet.html">
+                        <img src="assets/images/demo/tin-tuc/tin-1.jpg" alt="Tin tức">
+                      </a>
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Ngôi chùa kiến trúc độc đáo, khuôn viên xanh mát nổi tiếng nhất Gia Lai
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Nhà cổ Đông Hòa Hiệp lưu giữ nhiều kiến trúc độc đáo
+                        </a>
+                      </div>
+                    </div>
+                    <div class="inner-item">
+                      <div class="inner-title">
+                        <a href="chi-tiet-bai-viet.html">
+                          Cuộc thi Hoa hậu Du lịch biển 2022 sẽ dời sang năm 2023
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
           </div>
           <!-- End Left -->
-
+  
           <!-- Right -->
-          <div class="inner-right">
+          <div class="inner-right mobile-hidden">
             <div class="banner-full mb-20">
               <a href="#">
                 <img src="assets/images/demo/banners/banner-3.png" alt="Banner">
@@ -1046,6 +1497,46 @@
             </div>
             <div class="banner-full mb-20">
               <a href="#">
+                <img src="assets/images/demo/banners/banner-5.gif" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-6.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-7.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-8.png" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-9.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-10.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-11.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
+                <img src="assets/images/demo/banners/banner-9.jpg" alt="Banner">
+              </a>
+            </div>
+            <div class="banner-full mb-20">
+              <a href="#">
                 <img src="assets/images/demo/banners/banner-12.png" alt="Banner">
               </a>
             </div>
@@ -1055,14 +1546,400 @@
       </div>
     </div>
     <!-- End Wrap 2 Col -->
+
+    <!-- 3 Col -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-25">
+          <div class="news-type-6">
+            <div class="box-title">
+              <a href="danh-sach-bai-viet.html">
+                Infographics
+              </a>
+            </div>
+            <div class="inner-list">
+              <div class="inner-item">
+                <a class="inner-image" href="chi-tiet-bai-viet.html">
+                  <img src="assets/images/demo/tin-tuc/tin-1.jpg" alt="Tin tức">
+                </a>
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Doanh nhân giữ vai trò quan trọng trong phát triển kinh tế
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Quảng Ninh phấn đấu tăng trưởng kinh tế đạt 10% mỗi năm
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Có gì trong Khu đô thị Kosy Lita Hà Nam?
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mb-25">
+          <div class="news-type-6">
+            <div class="box-title">
+              <a href="danh-sach-bai-viet.html">
+                Du lịch
+              </a>
+            </div>
+            <div class="inner-list">
+              <div class="inner-item">
+                <a class="inner-image" href="chi-tiet-bai-viet.html">
+                  <img src="assets/images/demo/tin-tuc/tin-2.jpg" alt="Tin tức">
+                </a>
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Bà Rịa - Vũng Tàu tập trung phát triển Hồ Tràm thành tâm điểm đô thị du lịch
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Từ Sân bay Cam Ranh nhìn về bức tranh lạc quan của đô thị du lịch Phan Thiết
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    11 thành phố đẹp ở châu Âu ít người biết
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mb-25">
+          <div class="news-type-6">
+            <div class="box-title">
+              <a href="danh-sach-bai-viet.html">
+                Sức khỏe
+              </a>
+            </div>
+            <div class="inner-list">
+              <div class="inner-item">
+                <a class="inner-image" href="chi-tiet-bai-viet.html">
+                  <img src="assets/images/demo/tin-tuc/tin-3.jpg" alt="Tin tức">
+                </a>
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Ngày 14/10 ghi nhận 590 ca mắc mới COVID-19, không có ca tử vong
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Ngày thứ 4 liên tiếp ghi nhận số ca mắc mới COVID-19 trên mức 1.000
+                  </a>
+                </div>
+              </div>
+              <div class="inner-item">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    Ngày 12/10: Ghi nhận 1 ca tử vong do COVID-19 tại Hà Nội
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End 3 Col -->
+
+    <!-- English -->
+    <div class="container">
+      <div class="news-type-7 mb-10">
+        <div class="box-title">
+          <a href="danh-sach-bai-viet.html">
+            English
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-4 mb-15">
+            <div class="inner-item">
+              <a class="inner-image" href="chi-tiet-bai-viet.html">
+                <img src="assets/images/demo/tin-tuc/tin-1.jpg" alt="Tin tức">
+              </a>
+              <div class="inner-content">
+                <div class="inner-title">
+                  <a href="chi-tiet-bai-viet.html">
+                    17 projects honored with green building in 2022
+                  </a>
+                </div>
+                <div class="inner-sapo">
+                  (Construction) - On October 13, in Ho Chi Minh City, the Ministry of Construction held a ceremony to
+                  award certificates and honor contributions to green ...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-8">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 mb-15">
+                <div class="inner-item">
+                  <a class="inner-image" href="chi-tiet-bai-viet.html">
+                    <img src="assets/images/demo/tin-tuc/tin-2.jpg" alt="Tin tức">
+                  </a>
+                  <div class="inner-content">
+                    <div class="inner-title">
+                      <a href="chi-tiet-bai-viet.html">
+                        Minister Nguyen Thanh Nghi meets Finnish Minister of Agriculture and Forestry
+                      </a>
+                    </div>
+                    <div class="inner-sapo">
+                      (Construction) - On October 10, in Hanoi, Minister of Construction Nguyen Thanh Nghi had a meeting
+                      and worked with Finnish Minister of Agriculture and Forestry ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 mb-15">
+                <div class="inner-item">
+                  <a class="inner-image" href="chi-tiet-bai-viet.html">
+                    <img src="assets/images/demo/tin-tuc/tin-3.jpg" alt="Tin tức">
+                  </a>
+                  <div class="inner-content">
+                    <div class="inner-title">
+                      <a href="chi-tiet-bai-viet.html">
+                        Ministry of Construction gathers comments on amended Law on Housing and Law on Real Estate
+                        Business in Central region
+                      </a>
+                    </div>
+                    <div class="inner-sapo">
+                      (Construction) – In the implementation of the plan developing the Law on Housing (amended) and Law
+                      on Real Estate Business (amended) to submit to the ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End English -->
   </main>
   <!-- End Main -->
 
   <!-- Footer -->
   <footer class="footer">
-
+    <div class="footer-head">
+      <div class="container">
+        <div class="inner-wrap">
+          <div class="inner-left">
+            <div class="inner-item">
+              <a href="/">
+                Trang chủ
+              </a>
+            </div>
+          </div>
+          <div class="inner-right">
+            <div class="inner-item">
+              <a href="tin-24h.html">
+                24h qua
+              </a>
+            </div>
+            <div class="inner-item">
+              <a href="#" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <div class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-list">
+                  <div class="inner-item">
+                    <a href="#">
+                      English
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Video
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Infographics
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      24h qua
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Xem nhiều
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Kinh tế
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Xã hội
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-list">
+                  <div class="inner-item">
+                    <a href="#">
+                      Thời sự
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Quy hoạch - Kiến trúc
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Bất động sản
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Vật liệu
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Khoa học - Công nghệ
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Du lịch
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Sức khỏe
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="footer-list">
+                  <div class="inner-item">
+                    <a href="#">
+                      Pháp luật
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Bạn đọc
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Thế giới
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Văn hóa
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Đọc báo giấy
+                    </a>
+                  </div>
+                  <div class="inner-item">
+                    <a href="#">
+                      Sự kiện & Bình luận
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="row">
+              <div class="col-lg-5 col-md-5">
+                <div class="footer-contact">
+                  <div class="inner-title">
+                    Liên hệ
+                  </div>
+                  <div class="inner-list">
+                    <a href="#">
+                      <i class="fas fa-envelope"></i> Tòa soạn
+                    </a>
+                    <a href="#">
+                      <i class="fab fa-adversal"></i> Quảng cáo
+                    </a>
+                    <a href="#">
+                      <i class="fas fa-handshake"></i> Hợp tác bản quyền
+                    </a>
+                  </div>
+                  <p class="inner-info">
+                    Đường dây nóng: 0945.40.6866
+                    <br>
+                    Email: lienhebxd@gmail.com
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-7">
+                <div class="footer-desc">
+                  <p class="inner-legal">
+                    <b>Báo điện tử Xây dựng</b>
+                    <br>
+                    Cơ quan chủ quản: Bộ Xây dựng
+                    <br>
+                    Giấy phép: Số 400/GP-BTTTT ngày 8/8/2022
+                    <br>
+                    Tổng biên tập: Nguyễn Anh Dũng
+                    <br>
+                    Phó TBT: Tào Khánh Hưng, La Đức Hùng
+                    <br>
+                    Phó TBT phụ trách Báo điện tử: Nguyễn Sơn Tùng
+                    <br>
+                    Toà soạn: 37 Lê Đại Hành, Hai Bà Trưng, Hà Nội
+                  </p>
+                  <i>Chỉ được phát hành lại thông tin từ website này khi có sự đồng ý bằng văn bản của Báo Xây dựng.</i>
+                  <br>
+                  <a class="inner-cms" target="_blank" href="#">Based on MasterCMS Ultimate Edition 2022 v2.9</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- End Footer -->
+
+  <!-- Go To Top -->
+  <div class="go-to-top">
+    <i class="fas fa-long-arrow-alt-up"></i>
+  </div>
+  <!-- End Go To Top -->
 
 
   <!-- Bootstrap Js -->
