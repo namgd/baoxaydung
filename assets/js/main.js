@@ -203,16 +203,20 @@ var detailContent = document.querySelector('.detail-content');
 if (detailContent) {
   var btnIncreaseFSize = document.getElementById('btn-increase-fsize');
   var btnDecreaseFSize = document.getElementById('btn-decrease-fsize');
+  
+  detailContent.style.fontSize = localStorage.getItem("fontSizeContent") + "px";
 
   btnIncreaseFSize.addEventListener('click', function () {
     var fSize = (parseInt(getComputedStyle(detailContent).fontSize));
     fSize += 5;
+    localStorage.setItem("fontSizeContent", fSize);
     detailContent.style.fontSize = fSize + "px";
   });
 
   btnDecreaseFSize.addEventListener('click', function () {
     var fSize = (parseInt(getComputedStyle(detailContent).fontSize));
     fSize -= 5;
+    localStorage.setItem("fontSizeContent", fSize);
     detailContent.style.fontSize = fSize + "px";
   });
 }
