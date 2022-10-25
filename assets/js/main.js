@@ -199,25 +199,43 @@ if (audioPlayer) {
 // End Audio
 
 // Change Font Size
-var detailContent = document.querySelector('.detail-content');
-if (detailContent) {
-  var btnIncreaseFSize = document.getElementById('btn-increase-fsize');
-  var btnDecreaseFSize = document.getElementById('btn-decrease-fsize');
-  
-  detailContent.style.fontSize = localStorage.getItem("fontSizeContent") + "px";
+$(function () {
+  let step = parseInt(localStorage.getItem("stepFontSize"));
+  if (isNaN(step)) {
+    step = 0;
+    localStorage.setItem("stepFontSize", step);
+  }
 
-  btnIncreaseFSize.addEventListener('click', function () {
-    var fSize = (parseInt(getComputedStyle(detailContent).fontSize));
-    fSize += 5;
-    localStorage.setItem("fontSizeContent", fSize);
-    detailContent.style.fontSize = fSize + "px";
+  $(".detail-content").children().each(function () {
+    var size = parseInt($(this).css("font-size"));
+    size = (size + 5 * step) + "px";
+    $(this).css({
+      'font-size': size
+    });
   });
 
-  btnDecreaseFSize.addEventListener('click', function () {
-    var fSize = (parseInt(getComputedStyle(detailContent).fontSize));
-    fSize -= 5;
-    localStorage.setItem("fontSizeContent", fSize);
-    detailContent.style.fontSize = fSize + "px";
+  $("#btn-increase-fsize").click(function () {
+    step += 1;
+    localStorage.setItem("stepFontSize", step);
+    $(".detail-content").children().each(function () {
+      var size = parseInt($(this).css("font-size"));
+      size = (size + 5) + "px";
+      $(this).css({
+        'font-size': size
+      });
+    });
   });
-}
+
+  $("#btn-decrease-fsize").click(function () {
+    step -= 1;
+    localStorage.setItem("stepFontSize", step);
+    $(".detail-content").children().each(function () {
+      var size = parseInt($(this).css("font-size"));
+      size = (size - 5) + "px";
+      $(this).css({
+        'font-size': size
+      });
+    });
+  });
+});
 // End Change Font Size
